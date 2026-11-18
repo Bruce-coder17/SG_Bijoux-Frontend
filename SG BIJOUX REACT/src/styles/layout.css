@@ -1,0 +1,35 @@
+
+.main-content {
+  min-height: 65vh;
+  padding-top: 130px;
+  padding-bottom: var(--space-3xl);
+}
+
+.page-container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: var(--font-3xl);
+  margin-bottom: var(--space-sm);
+}
+
+.page-description {
+  margin-bottom: var(--space-xl);
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 110px;
+  }
+
+  .page-title {
+    font-size: var(--font-2xl);
+  }
+
+  .page-container {
+    width: 94%;
+  }
+}
